@@ -24,6 +24,7 @@ width:45%;
 float:left;
 border:2px solid darkgray;
 color:white;
+/* Needs testing */
 user-select:all;
 }
 /* Untested - NOTE: class .first is contenteditable */
