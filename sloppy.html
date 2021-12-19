@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <meta charset='UTF-8'/>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <meta content='ie=edge' http-equiv='X-UA-Compatible'/>
+    <title>Html editor</title>
+   <b:skin><![CDATA[/*
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: limegreen; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+  ]]></b:skin>
+</head>
+<body style='background:black; font-family:Verdana;height:100%;margin:2px;color:white;'>
+    <div class='main-editor' style='height:100%;'>
+        <button class='btn' style='border:0px;float:left;background:limegreen;font-weight:200; font-size:13px; color:white;'>
+          Run
+        </button>
+        <button class='btn' style='border:0px;float:left;background:blue;font-weight:200; font-size:13px; color:white;'>
+          Copy
+        </button>
+        <button class='btn' style='border:0px;float:left;background:red;font-weight:200; font-size:13px; color:white;'>
+          Erase
+        </button>
+        <button class='btn' style='border:0px;float:left;background:yellow;font-weight:200; font-size:13px; color:darkgray;'>
+          Code Repository
+        </button>
+        <br/>
+        <div class='first' contenteditable='true' style='height:625px;width:45%;float:left; border:2px solid darkgray;color:white;'>
+          <div style='background:black; font-family:Verdana;height:200px;margin:50px;color:white;padding:40px;'>
+            <h1>
+              Welcome Amigo!
+            </h1>
+            <br/>
+            <p>
+              realtimecodeeditor.blogspot.com is still underdevelopment. The project was started by Michael A. Trombi on 12/17/2021
+              <br/>
+              <hr/>
+              More information coming soon.
+            </p>
+          </div>
+        </div>
+        <iframe class='second' style='height:100%;height:625px;width:53%;background:white;'>
+        </iframe>
+    <div class='third' style='height:400px;width:91.2%;background:darkslategray;padding:50px;color:white;'>
+       <ul style='list-style: none; float:left;'>
+        <h3>More Information</h3>
+        <li>Attributors</li>
+        <li>Contributors</li>
+        <li>Source code</li>
+        <li>Join us</li>
+        <li>Donate</li>
+      </ul>
+      <ul style='list-style: none; float:left;'>
+        <h3>Organization</h3>
+        <li>Sponsors</li>
+        <li>Wikipedia</li>
+        <li>Community</li>
+        <li>More Tools</li>
+        <li>Referral Program</li>
+      </ul>
+    </div>
+    </div>
+    <script>
+  const first = document.querySelector(&quot;.first&quot;);
+const iframe = document.querySelector(&quot;iframe&quot;);
+const btn = document.querySelector(&quot;button&quot;);
+
+btn.addEventListener(&quot;click&quot;, () =&gt; {
+  var html = first.textContent;
+  iframe.src = &quot;data:text/html;charset=utf-8,&quot; + encodeURI(html);
+});
+
+
+first.addEventListener(&#39;keyup&#39;,()=&gt;{
+  var html = first.textContent;
+  iframe.src = &quot;data:text/html;charset=utf-8,&quot; + encodeURI(html);
+})
+
+first.addEventListener(&quot;paste&quot;, function(e) {
+        e.preventDefault();
+        var text = e.clipboardData.getData(&quot;text/plain&quot;);
+        document.execCommand(&quot;insertText&quot;, false, text);
+    });
+  </script>
+  <b:section class='main' id='main' showaddelement='yes'/>
+</body>
+</html>
