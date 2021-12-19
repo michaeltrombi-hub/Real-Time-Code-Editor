@@ -25,6 +25,10 @@ float:left;
 border:2px solid darkgray;
 color:white;
 }
+/* Untested - NOTE: class .first is contenteditable */
+[contenteditable] {
+  outline: 2px solid darkgray;
+}
 .third {
 height:400px;
 width:91.2%;
