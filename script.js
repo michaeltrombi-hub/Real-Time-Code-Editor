@@ -1,4 +1,4 @@
-  const first = document.querySelector(&quot;.first&quot;);
+const first = document.querySelector(&quot;.first&quot;);
 const iframe = document.querySelector(&quot;iframe&quot;);
 const btn = document.querySelector(&quot;button&quot;);
 
