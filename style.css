@@ -10,7 +10,8 @@ height:100%;
 }
 /* Top Buttons */
 .btn {
-border:0px 2px 5px 0px black;
+border:0px 2px 0px 0px black;
+margin-bottom:5px;
 float:left;
 background:darkscalegray;
 font-weight:200;
@@ -40,6 +41,8 @@ height:100%;
 height:625px;
 width:53%;
 background:white;
+resize:both;
+overflow:auto;
 }
 .third {
 height:400px;
