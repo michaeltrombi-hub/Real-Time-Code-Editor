@@ -10,13 +10,12 @@ height:100%;
 }
 /* Top Buttons */
 .btn {
-border:0px 2px 0px 0px black;
+border:0px 2px 5px 0px black;
 float:left;
 background:darkscalegray;
 font-weight:200;
 font-size:13px;
 color:white;
-margin-bottom:2px;
 }
 /* Code Editor */
 .first {
