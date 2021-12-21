@@ -16,6 +16,7 @@ background:darkscalegray;
 font-weight:200;
 font-size:13px;
 color:white;
+margin-bottom:2px;
 }
 /* Code Editor */
 .first {
@@ -24,8 +25,10 @@ width:45%;
 float:left;
 border:2px solid darkgray;
 color:white;
-/* Needs testing */
+/* Needs testing *broken* */
 user-select:all;
+resize:both;
+overflow:auto;
 }
 /* Untested - NOTE: class .first is contenteditable */
 [contenteditable] {
