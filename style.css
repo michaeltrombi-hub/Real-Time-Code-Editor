@@ -32,7 +32,8 @@ overflow:auto;
 }
 /* Untested - NOTE: class .first is contenteditable */
 [contenteditable] {
-  outline: 2px solid darkgray;
+resize:both;
+overflow:auto;
 }
 /* Live view iframe */
 .second {
