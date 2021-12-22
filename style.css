@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background:black;
 }
 
 textarea {
@@ -11,7 +12,7 @@ textarea {
   display: inline-block;
   background: #F4F4F9;
   outline: none;
-  font-family: Courier, sans-serif;
+  font-family: verdana;
   font-size: 14px;
 }
 
