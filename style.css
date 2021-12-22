@@ -21,7 +21,7 @@ color:white;
 .first {
 height:625px;
 width:45%;
-float:right;
+float:left;
 border:2px solid darkgray;
 color:white;
 /* Needs testing *broken* */
@@ -42,7 +42,6 @@ width:53%;
 background:white;
 resize:both;
 overflow:auto;
-float:right;
 }
 /* Scrollbar Width */
 ::-webkit-scrollbar {
