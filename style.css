@@ -8,11 +8,13 @@ header {
 width:100%;
 background:#111;
 margin-bottom:15px;
+padding:10px;
 }
 
 #logo {
 color:limegreen;
 text-align:left;
+font-size:25px;
 }
 
 textarea {
