@@ -3,6 +3,10 @@ body {
   background:black;
 }
 
+header {
+color:limegreen;
+}
+
 textarea {
   width: 32%;
   float: top;
