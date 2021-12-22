@@ -24,12 +24,10 @@ width:45%;
 float:left;
 border:2px solid darkgray;
 color:white;
-/* Needs testing *broken* */
-user-select:all;
 resize:both;
 overflow:auto;
 }
-/* Untested - NOTE: class .first is contenteditable */
+/* .first is contenteditable */
 [contenteditable] {
 resize:both;
 overflow:auto;
