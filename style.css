@@ -6,6 +6,8 @@ body {
 
 header {
 color:limegreen;
+width:100%;
+background:gray;
 }
 
 textarea {
