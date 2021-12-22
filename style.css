@@ -42,11 +42,11 @@ iframe {
 }
 
 #Iframe-Resizer-Fix {
-  resize: vertical;
+  resize: both;
   overflow: auto;
   height:10em;
   position:relative
 }
 ::-webkit-resizer {
-background:skyblue;
+background:lime;
 }
