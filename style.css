@@ -23,13 +23,13 @@ iframe {
   width: 100%;
   height: 35em;
   background:white;
-  resize: vertical;
-  overflow: auto;
 }
 
 #Iframe-Resizer-Fix {
   resize: vertical;
   overflow: auto;
+  height:30em;
+  position:relative
 }
 ::-webkit-resizer {
 background:skyblue;
