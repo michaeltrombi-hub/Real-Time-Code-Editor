@@ -26,6 +26,8 @@ iframe {
   resize: vertical;
   overflow: auto;
 }
+#code {
 ::-webkit-resizer {
 background:gray;
+}
 }
