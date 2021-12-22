@@ -26,3 +26,6 @@ iframe {
   resize: vertical;
   overflow: auto;
 }
+::-webkit-resizer {
+background:gray;
+}
