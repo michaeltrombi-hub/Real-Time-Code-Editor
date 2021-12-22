@@ -13,3 +13,7 @@ function compile() {
     };
 
 compile();
+
+$('#Iframe-Resizer-Fix').resizable({
+	alsoResize : ''
+});
