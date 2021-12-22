@@ -32,5 +32,6 @@ iframe {
 }
 
 #Iframe-Resizer-Fix {
-
+  resize: vertical;
+  overflow: auto;
 }
