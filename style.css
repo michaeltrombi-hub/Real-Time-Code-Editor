@@ -5,17 +5,17 @@ body {
 }
 
 header {
-width:90%;
+width:95%;
 background:#111;
-margin-bottom:15px;
-padding:10px;
+margin-bottom:8px;
+padding:5px;
 color:limegreen;
 }
 
 #logo {
 color:limegreen;
 text-align:left;
-font-size:25px;
+font-size:20px;
 font-family:verdana;
 }
 
