@@ -17,6 +17,10 @@ textarea {
   font-size: 14px;
 }
 
+::-webkit-resizer {
+background:gray;
+}
+
 iframe {
   bottom: 0;
   position: relative;
@@ -26,8 +30,7 @@ iframe {
   resize: vertical;
   overflow: auto;
 }
-#code {
-::-webkit-resizer {
-background:gray;
-}
+
+#Iframe-Resizer-Fix {
+
 }
