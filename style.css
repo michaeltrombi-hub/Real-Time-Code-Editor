@@ -1,59 +1,23 @@
 body {
-background:black;
-font-family:Verdana;
-height:100%;
-margin:2px;
-color:white;
+  text-align: center;
 }
-.main-editor {
-height:100%;
+
+textarea {
+  width: 32%;
+  float: top;
+  min-height: 250px;
+  overflow: scroll;
+  margin: auto;
+  display: inline-block;
+  background: #F4F4F9;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
 }
-/* Top Buttons */
-.btn {
-border:0px 1px 0px 0px black;
-margin-bottom:2px;
-background:blue;
-font-weight:200;
-font-size:13px;
-color:white;
-}
-/* Code Editor */
-.first {
-height:625px;
-width:45%;
-float:left;
-border:2px solid darkgray;
-color:white;
-resize:both;
-overflow:auto;
-}
-/* .first is contenteditable */
-[contenteditable] {
-resize:both;
-overflow:auto;
-}
-/* Live view iframe */
-.second {
-height:100%;
-height:625px;
-width:53%;
-background:white;
-resize:both;
-overflow:auto;
-}
-/* Scrollbar Width */
-::-webkit-scrollbar {
-  width: 7px;
-}
-/* Scrollbar Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-} 
-/* Scrollbar Handle */
-::-webkit-scrollbar-thumb {
-  background: limegreen; 
-}
-/* Scrollbar Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: black; 
+
+iframe {
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 35em;
 }
