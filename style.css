@@ -5,9 +5,14 @@ body {
 }
 
 header {
-color:limegreen;
 width:100%;
-background:gray;
+background:#111;
+position:fixed;
+}
+
+#logo {
+color:limegreen;
+text-align:left;
 }
 
 textarea {
