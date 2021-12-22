@@ -27,12 +27,6 @@ color:white;
 resize:both;
 overflow:auto;
 }
-::-webkit-resizer {
-border: 2px solid yellow;
-background: blue;
-box-shadow: 0 0 2px 5px red;
-outline: 2px dashed green;
-}
 /* .first is contenteditable */
 [contenteditable] {
 resize:both;
