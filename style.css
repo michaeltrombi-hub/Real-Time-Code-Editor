@@ -22,7 +22,7 @@ color:white;
 .first {
 height:625px;
 width:45%;
-float:left;
+float:right;
 border:2px solid darkgray;
 color:white;
 /* Needs testing *broken* */
@@ -43,6 +43,7 @@ width:53%;
 background:white;
 resize:both;
 overflow:auto;
+float:right;
 }
 .third {
 height:400px;
