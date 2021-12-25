@@ -83,7 +83,7 @@ border:0px;
   padding: 10px;
 }
 
-.control-pad > div {
+.control-pad > #button-controls {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
