@@ -60,20 +60,20 @@ background:lime;
 #btn-html {
 background:tomato;
 border:0px;
-margin:5px;
+margin-right:5px;
 }
 
 
 #btn-css {
 background:blue;
 border:0px;
-margin:5px;
+margin-right:5px;
 }
 
 #btn-js {
 background:gold;
 border:0px;
-margin:5px;
+margin-right:5px;
 }
 
 .control-pad {
