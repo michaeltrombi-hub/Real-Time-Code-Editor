@@ -81,3 +81,7 @@ border:0px;
 background:gold;
 border:0px;
 }
+button {
+float:left;
+display:inline-block;
+}
