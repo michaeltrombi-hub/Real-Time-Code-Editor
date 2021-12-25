@@ -3,6 +3,7 @@ body {
   background:black;
   color:white;
   font-family:verdana;
+  margin:0;
 }
 
 div.scrollmenu {
@@ -15,8 +16,9 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px;
+  padding: 5px;
   text-decoration: none;
+  font-size:16px;
 }
 div.scrollmenu a:hover {
   background-color: #555;
