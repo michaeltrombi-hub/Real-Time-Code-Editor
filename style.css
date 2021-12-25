@@ -62,6 +62,16 @@ position:absolute;
 }
 
 #button-controls-html {
+  width: 32.2%;
+  float: top;
+  min-height: 250px;
+  overflow: scroll;
+  margin: auto;
+  display: inline-block;
+  background: black;
+  color:lime;
+  outline: none;
+  font-family: verdana;
 }
 #btn-html {
 background:tomato;
@@ -69,6 +79,16 @@ border:0px;
 }
 
 #button-controls-css {
+  width: 32.2%;
+  float: top;
+  min-height: 250px;
+  overflow: scroll;
+  margin: auto;
+  display: inline-block;
+  background: black;
+  color:lime;
+  outline: none;
+  font-family: verdana;
 }
 #btn-css {
 background:blue;
@@ -76,13 +96,18 @@ border:0px;
 }
 
 #button-controls-js {
+  width: 32.2%;
+  float: top;
+  min-height: 250px;
+  overflow: scroll;
+  margin: auto;
+  display: inline-block;
+  background: black;
+  color:lime;
+  outline: none;
+  font-family: verdana;
 }
 #btn-js {
 background:gold;
 border:0px;
-}
-button {
-float:left;
-display:inline-block;
-margin-right:10px;
 }
