@@ -60,17 +60,24 @@ background:lime;
 #controls {
 position:absolute;
 }
+
 #button-controls-html {
-margin-right:32%;
+}
+#btn-html {
 background:tomato;
 border:0px;
 }
+
 #button-controls-css {
-margin-right:32%;
+}
+#btn-css {
 background:blue;
 border:0px;
 }
+
 #button-controls-js {
+}
+#btn-js {
 background:gold;
 border:0px;
 }
