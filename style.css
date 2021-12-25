@@ -57,6 +57,8 @@ iframe {
 background:lime;
 }
 
+button { 
+}
 
 #btn-html {
 background:tomato;
@@ -77,8 +79,8 @@ border:0px;
 .control-pad {
   display: grid;
   justify-content: space-evenly;
+  grid-template-columns: 32% 32% 32%; /*Make the grid smaller than the container*/
   grid-gap: 10px;
-  padding: 10px;
 }
 
 .control-pad > #button-controls {
