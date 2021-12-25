@@ -56,3 +56,21 @@ iframe {
 ::-webkit-resizer {
 background:lime;
 }
+
+#controls {
+position:absolute;
+}
+#button-controls-html {
+margin-right:32%;
+background:tomato;
+border:0px;
+}
+#button-controls-css {
+margin-right:32%;
+background:blue;
+border:0px;
+}
+#button-controls-js {
+background:gold;
+border:0px;
+}
