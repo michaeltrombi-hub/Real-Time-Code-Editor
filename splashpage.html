@@ -24,33 +24,8 @@ color: limegreen;
 </head>
 <body>
   <div id="main-content">
-    <h1 id='logo'><sub>TM</sub></h1>
-    <p id='slogan'></p>
+    <h1 id='logo'>REal Time Code Editor<sub>TM</sub></h1>
+    <p id='slogan'>A open source, web based, real time code editor.<br>HTML, CSS, JS</p>
   </div>
-  <script>
-  var i = 0;
-var txt = 'Real Time Code Editor'; /* The text */
-var speed = 70; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("logo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-  
-    var i = 0;
-var txt = 'A open source, web based, real time code editor.'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("slogan").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-  </script>
 </body>
 </html>
