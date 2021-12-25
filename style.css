@@ -74,7 +74,7 @@ background:gold;
 border:0px;
 }
 
-.grid-container {
+.control-pad {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
@@ -83,7 +83,7 @@ border:0px;
   padding: 10px;
 }
 
-.grid-container > div {
+.control-pad > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
