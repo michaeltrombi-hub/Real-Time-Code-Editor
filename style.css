@@ -9,6 +9,7 @@ body {
 /* scrollbar width */
 ::-webkit-scrollbar {
   width: 10px;
+  border-radius: 10px 10px 0px 10p;
 }
 
 /* Track */
@@ -24,7 +25,7 @@ body {
 }
 
 div.scrollmenu {
-  background-color: #333;
+  background-color: black;
   overflow: auto;
   white-space: nowrap;
   margin-bottom: 8px;
