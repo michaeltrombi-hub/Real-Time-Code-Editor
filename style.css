@@ -64,7 +64,7 @@ height:25px;
 }
 
 #btn-html {
-background: gray;
+background: #333;
 color: white;
 border:0px;
 margin-right:5px;
@@ -73,14 +73,16 @@ border-radius: 5px;
 
 
 #btn-css {
-background:blue;
+background: #333;
+color: white;
 border:0px;
 margin-right:5px;
 border-radius: 5px;
 }
 
 #btn-js {
-background: gold;
+background: #333;
+color: white;
 border: 0px;
 margin-right: 5px;
 border-radius: 5px;
