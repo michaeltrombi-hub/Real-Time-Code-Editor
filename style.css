@@ -58,6 +58,15 @@ textarea {
   border-radius:10px 10px 0px 10px;
 }
 
+#html {
+color:red;
+}
+#css {
+color:cyan;
+}
+#js {
+color:gold;
+}
 iframe {
   resize: both;
   overflow-y: scroll;
