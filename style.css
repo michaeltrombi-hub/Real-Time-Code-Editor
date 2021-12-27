@@ -36,6 +36,7 @@ textarea {
   outline: none;
   font-family: verdana;
   font-size: 14px;
+  border-radius:10px 10px 0px 10px;
 }
 
 iframe {
@@ -56,13 +57,17 @@ iframe {
 }
 
 ::-webkit-resizer {
-background:lime;
+background:black;
+border:dashed 2px lime;
+width:25px;
+height:25px;
 }
 
 #btn-html {
 background:tomato;
 border:0px;
 margin-right:5px;
+border-radius: 5px;
 }
 
 
@@ -70,12 +75,14 @@ margin-right:5px;
 background:blue;
 border:0px;
 margin-right:5px;
+border-radius: 5px;
 }
 
 #btn-js {
-background:gold;
-border:0px;
-margin-right:5px;
+background: gold;
+border: 0px;
+margin-right: 5px;
+border-radius: 5px;
 }
 
 .control-pad {
