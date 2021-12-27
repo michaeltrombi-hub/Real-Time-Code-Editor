@@ -83,6 +83,8 @@ iframe {
   width: 100%;
   height: 100%;
   background: white;
+  -webkit-transition: height 0.4s ease-in-out;
+  transition: height 0.4s ease-in-out;
 }
 
 #Iframe-Resizer-Fix {
@@ -91,6 +93,15 @@ iframe {
   overflow-x: hidden;
   height:19.2em;
   position:relative
+  -webkit-transition: height 0.4s ease-in-out;
+  transition: height 0.4s ease-in-out;
+}
+
+iframe:focus {
+  height: 100%;
+}
+#iframe:focus {
+  height: 100%;
 }
 
 ::-webkit-resizer {
