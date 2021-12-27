@@ -6,21 +6,21 @@ body {
   margin:0;
 }
 
-/* width */
+/* scrollbar width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 10p;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
+  background: #333;
+  border-radius: 10px 10px 0px 10px;
 }
 
 div.scrollmenu {
