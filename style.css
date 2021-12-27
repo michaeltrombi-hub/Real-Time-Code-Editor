@@ -60,26 +60,26 @@ textarea {
 
 iframe {
   resize: both;
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   bottom: 0;
   position: relative;
   width: 100%;
   height: 100%;
-  background:white;
+  background: white;
 }
 
 #Iframe-Resizer-Fix {
   resize: both;
-  overflow: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
   height:19.2em;
   position:relative
 }
 
 ::-webkit-resizer {
 background:black;
-border:dashed 2px lime;
-width:25px;
-height:25px;
+border:dotted 1px lime;
 }
 
 #btn-html {
