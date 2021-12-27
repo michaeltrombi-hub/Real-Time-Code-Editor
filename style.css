@@ -64,7 +64,8 @@ height:25px;
 }
 
 #btn-html {
-background:tomato;
+background: gray;
+color: white;
 border:0px;
 margin-right:5px;
 border-radius: 5px;
@@ -90,6 +91,7 @@ border-radius: 5px;
   justify-content: space-evenly;
   grid-template-columns: 32% 32% 32%; /*Make the grid smaller than the container*/
   grid-gap: 10px;
+  margin-bottom: 10px;
 }
 
 .control-pad > #button-controls {
