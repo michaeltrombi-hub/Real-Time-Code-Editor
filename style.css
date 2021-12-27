@@ -95,7 +95,7 @@ iframe {
 
 ::-webkit-resizer {
 background:black;
-border:dotted 1px white;
+border:dashed 1px white;
 }
 
 #btn-html {
