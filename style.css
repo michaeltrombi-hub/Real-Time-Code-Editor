@@ -128,11 +128,10 @@ border-radius: 5px;
   justify-content: space-evenly;
   grid-template-columns: 32% 32% 32%; /*Make the grid smaller than the container*/
   grid-gap: 10px;
-  margin-bottom: 2px;
 }
 
 #button-controls {
 border:2px solid #333;
 border-radius:10px 10px 0px 0px;
-border-bottom:0px;
+padding:5px;
 }
