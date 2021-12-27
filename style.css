@@ -67,6 +67,7 @@ color:cyan;
 #js {
 color:gold;
 }
+
 iframe {
   resize: both;
   overflow-y: scroll;
@@ -88,7 +89,7 @@ iframe {
 
 ::-webkit-resizer {
 background:black;
-border:dotted 1px lime;
+border:dotted 1px white;
 }
 
 #btn-html {
